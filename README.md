@@ -1,1 +1,1 @@
-# rust-book
+# rust-hello-world
