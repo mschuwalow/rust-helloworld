@@ -1,4 +1,4 @@
-{ sources ? import ./nix/sources.nix, pkgs ? import sources.nixpkgs { }}:
+{ sources ? import ./nix/sources.nix, pkgs ? import sources.nixpkgs { } }:
 let
   # import rust compiler
   rust = import ./nix/rust.nix { inherit sources; };
